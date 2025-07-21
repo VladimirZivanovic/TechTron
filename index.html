@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Techtron PC | IT Servis i Prodaja Računara</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #212529; }
+    nav { background: #007cf0; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 999; }
+    nav a { margin: 0 1rem; color: white; font-weight: bold; text-decoration: none; font-size: 1rem; }
+    nav a:hover { text-decoration: underline; }
+    header { background: linear-gradient(to right, #007cf0, #00dfd8); color: white; padding: 3rem 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 3.5rem; letter-spacing: 1px; }
+    header p { font-size: 1.4rem; margin-top: 0.5rem; }
+    .section { padding: 3rem 2rem; text-align: center; }
+    .section h2 { font-size: 2rem; color: #007cf0; margin-bottom: 2rem; }
+    .services { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem; }
+    .service-box { background: white; border-radius: 12px; padding: 2rem; width: 280px; box-shadow: 0 6px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .service-box:hover { transform: translateY(-5px); }
+    .service-box h3 { color: #007cf0; font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .service-box p { font-size: 0.95rem; color: #444; }
+    form { margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem; max-width: 500px; margin-left: auto; margin-right: auto; }
+    form input, form textarea { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; }
+    form button { padding: 0.8rem 2rem; background: #007cf0; color: white; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; }
+    form button:hover { background: #005fa3; }
+    footer { background-color: #1f1f1f; color: white; text-align: center; padding: 2rem; margin-top: 2rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#usluge">Usluge</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <header>
+    <h1>Techtron PC</h1>
+    <p>Kompletna IT rešenja za dom i poslovanje</p>
+  </header>
+
+  <section class="section" id="usluge">
+    <h2>Naše usluge</h2>
+    <div class="services">
+      <div class="service-box"><h3>Servis računara i laptopova</h3><p>Rešavanje hardverskih i softverskih problema svih brendova.</p></div>
+      <div class="service-box"><h3>Nadogradnja komponenti</h3><p>Ugradnja RAM-a, SSD-a, grafičkih karti i drugih delova.</p></div>
+      <div class="service-box"><h3>Reinstalacija sistema</h3><p>Brza i bezbedna instalacija Windows ili Linux operativnog sistema.</p></div>
+      <div class="service-box"><h3>Uklanjanje virusa</h3><p>Detekcija i eliminacija virusa, malware-a i neželjenih programa.</p></div>
+      <div class="service-box"><h3>Umrežavanje i Wi-Fi</h3><p>Podešavanje lokalnih mreža i proširenje Wi-Fi signala.</p></div>
+      <div class="service-box"><h3>Video nadzor</h3><p>Instalacija i podešavanje kamera sa pristupom putem mobilnog telefona.</p></div>
+      <div class="service-box"><h3>Izrada web sajtova</h3><p>Moderni i funkcionalni sajtovi za preduzetnike i firme.</p></div>
+      <div class="service-box"><h3>Dizajn logotipa</h3><p>Kreativni vizuelni identitet za vaš brend.</p></div>
+      <div class="service-box"><h3>Digitalna podrška</h3><p>Podešavanje cloud servisa, antivirus zaštita i backup rešenja.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="kontakt">
+    <h2>Kontaktiraj nas</h2>
+    <p>Email: <a href="mailto:techtronpc@gmail.com">techtronpc@gmail.com</a></p>
+    <p>Telefon: <a href="tel:+381669538121">+381 66 953 8121</a></p>
+    <p>Adresa: Alekse Šantića 46, Šabac</p>
+    <iframe src="https://www.google.com/maps?q=Alekse+Šantića+46,+Šabac,+Srbija&output=embed" width="100%" height="300" style="border:0; border-radius:10px; margin-top:1rem;" allowfullscreen loading="lazy"></iframe>
+    <form action="https://formspree.io/f/mnqewbpg" method="POST">
+      <input type="text" name="ime" placeholder="Vaše ime" required>
+      <input type="email" name="email" placeholder="Vaš email" required>
+      <textarea name="poruka" placeholder="Vaša poruka" rows="5" required></textarea>
+      <button type="submit">Pošalji poruku</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Techtron PC. Sva prava zadržana.</p>
+  </footer>
+</body>
+</html>
