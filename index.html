@@ -124,13 +124,29 @@
     }
 </style>
 </head>
-<body>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("active");
+  }
+</script>
+
+    <body>
 <nav>
-<a href="#usluge">Usluge</a>
-<a href="#zasto">Zašto mi</a>
-<a href="#kontakt">Kontakt</a>
-<a href="odrzavanje.html">Za firme</a>
+  <div class="nav-container">
+    <div class="logo">Techtron PC</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#usluge">Usluge</a></li>
+      <li><a href="#zasto">Zašto mi</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="odrzavanje.html">Za firme</a></li>
+    </ul>
+  </div>
 </nav>
+
  
   <header>
     <h1>Techtron PC</h1>
