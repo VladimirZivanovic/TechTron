@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -103,6 +104,7 @@ footer {
     padding: 1em;
     font-size: 0.9em;
 }
+
 /* Hamburger meni stilovi */
 nav {
     background-color: #3b82f6;
